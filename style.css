@@ -1,0 +1,78 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #1e3d59;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Navigation */
+nav {
+  background-color: #ff6e40;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #ff3d00;
+}
+
+/* Main content */
+main {
+  padding: 30px;
+}
+
+main h2 {
+  color: #1e3d59;
+}
+
+main ul {
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3d59;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
